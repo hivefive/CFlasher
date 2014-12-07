@@ -1,0 +1,21 @@
+{
+    "name": "hivefive/cflasher",    
+    "type": "library",
+    "description": "PHP class to create messages for a user",
+	"keywords": ["flash", "message"],
+    "homepage": "http://dbwebb.se/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoffer Bäckström",
+            "email": "christofferb.b@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Hivefive\\": "src/" }
+    }
+}
