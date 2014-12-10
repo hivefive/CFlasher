@@ -1,6 +1,6 @@
 CFlasher a utility PHP class for creating simple flash messages
 ==================================
-
+[![Build Status](https://travis-ci.org/hivefive/CFlasher.svg?branch=master)](https://travis-ci.org/hivefive/CFlasher)
 License
 ----------------------------------
 
@@ -26,7 +26,6 @@ Use <code>clearFlash()</code> to clear the flash message out of the session.
 
 For styling set the class to the type of the message, then you can style the individual message types. Example in the flashtest.php testpage.
 
-```
- .   
-..:  Copyright 2014 by Christoffer Bäckström
-```
+  
+Christoffer Bäckström
+
