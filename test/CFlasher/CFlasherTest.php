@@ -53,7 +53,7 @@ class CFlasherTest extends \PHPUnit_Framework_TestCase
 	public function testClear() 
 	{
 		$el = new \Hivefive\CFlasher\CFlasher();
-		
+		$_SESSION['flash'] = "test";
 		$res = $el->clearFlash();
 		$exp = true;
 		$this->assertEquals($res, $exp, "Clearing the session failed");
