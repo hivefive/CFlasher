@@ -1,6 +1,6 @@
 CFlasher a utility PHP class for creating simple flash messages
 ==================================
-[![Build Status](https://travis-ci.org/hivefive/CFlasher.svg?branch=master)](https://travis-ci.org/hivefive/CFlasher)
+[![Build Status](https://travis-ci.org/hivefive/CFlasher.svg?branch=master)](https://travis-ci.org/hivefive/CFlasher) [![Code Coverage](https://scrutinizer-ci.com/g/hivefive/CFlasher/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hivefive/CFlasher/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hivefive/CFlasher/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hivefive/CFlasher/?branch=master)
 License
 ----------------------------------
 
