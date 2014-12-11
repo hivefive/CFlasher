@@ -15,7 +15,7 @@ class CFlasherTest extends \PHPUnit_Framework_TestCase
      * @return void
      *
      */
-    public function testCreateElement() 
+    public function testCreate() 
     {
         $el = new \Hivefive\CFlasher\CFlasher();
 
@@ -35,7 +35,7 @@ class CFlasherTest extends \PHPUnit_Framework_TestCase
      * @return void
      *
      */
-    public function testGetValue() 
+    public function testGetMessage() 
     {
         $el = new \Hivefive\CFlasher\CFlasher();
   
@@ -48,8 +48,35 @@ class CFlasherTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($res['type'], $expType, "Get types missmatch");
 		$this->assertEquals($res['message'], $expMessage, "Get message missmatch");
     }
+	
+	
+	
+	/**
+     * Test 
+     *
+     * @return void
+     *
+     */
+	 public function testDefaultMessage()
+	 {
+		$el = new \Hivefive\CFlasher\CFlasher();
+		
+		$set = $el->setMessage('info');
+		if($set) {
+			$res = $el->getMessage();
+		}
+		$expMessage = "This is an info message";
+		$this->assertEquals($res['message'], $expMessage, "Get message missmatch");
+	 
+	 }
+	
 
-
+	/**
+     * Test 
+     *
+     * @return void
+     *
+     */
 	public function testClear() 
 	{
 		$el = new \Hivefive\CFlasher\CFlasher();
